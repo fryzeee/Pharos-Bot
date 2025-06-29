@@ -119,12 +119,12 @@ const positionManagerAbi = [
 ];
 
 const pairOptions = [
-  { id: 1, from: 'WPHRS', to: 'USDC', amount: 0.0001 },
-  { id: 2, from: 'WPHRS', to: 'USDT', amount: 0.0001 },
-  { id: 3, from: 'USDC', to: 'WPHRS', amount: 0.0001 },
-  { id: 4, from: 'USDT', to: 'WPHRS', amount: 0.0001 },
-  { id: 5, from: 'USDC', to: 'USDT', amount: 0.0001 },
-  { id: 6, from: 'USDT', to: 'USDC', amount: 0.0001 },
+  { id: 1, from: 'WPHRS', to: 'USDC', amount: 0.001 },
+  { id: 2, from: 'WPHRS', to: 'USDT', amount: 0.001 },
+  { id: 3, from: 'USDC', to: 'WPHRS', amount: 1.0 },
+  { id: 4, from: 'USDT', to: 'WPHRS', amount: 1.0 },
+  { id: 5, from: 'USDC', to: 'USDT', amount: 1.0 },
+  { id: 6, from: 'USDT', to: 'USDC', amount: 1.0 },
 ];
 
 const lpOptions = [
@@ -793,10 +793,10 @@ const main = async () => {
     return;
   }
 
-  const numTransfers = 10;
-  const numWraps = 10;
-  const numSwaps = 10;
-  const numLPs = 10;
+  const numTransfers = 0;
+  const numWraps = 0;
+  const numSwaps = 100;
+  const numLPs = 0;
 
   while (true) {
     for (const privateKey of privateKeys) {
