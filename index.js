@@ -29,7 +29,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log('-------------------------------------------------');
-    console.log(' Pharos Testnet Auto Bot');
+    console.log(' Pharos Testnet');
     console.log('-------------------------------------------------');
     console.log(`${colors.reset}\n`);
   },
