@@ -29,7 +29,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log('-------------------------------------------------');
-    console.log(' Pharos Testnet Auto Bot - Airdrop Insiders');
+    console.log(' Pharos Testnet Auto Bot');
     console.log('-------------------------------------------------');
     console.log(`${colors.reset}\n`);
   },
@@ -43,9 +43,9 @@ const networkConfig = {
 };
 
 const tokens = {
-  USDC: '0xad902cf99c2de2f1ba5ec4d642fd7e49cae9ee37',
-  WPHRS: '0x76aaada469d23216be5f7c596fa25f282ff9b364',
-  USDT: '0xed59de2d7ad9c043442e381231ee3646fc3c2939',
+  USDC: '0x72df0bcd7276f2dFbAc900D1CE63c272C4BCcCED',
+  WPHRS: '0x76aaaDA469D23216bE5f7C596fA25F282Ff9b364',
+  USDT: '0xD4071393f8716661958F766DF660033b3d35fD29',
   POSITION_MANAGER: '0xF8a1D4FF0f9b9Af7CE58E1fc1833688F3BFd6115',
 };
 
