@@ -792,12 +792,13 @@ const main = async () => {
     logger.error('No private keys found in .env');
     return;
   }
-
-  const numTransfers = 0;
+#custom tx
+  const numTransfers = 100;
   const numWraps = 0;
   const numSwaps = 100;
   const numLPs = 0;
-
+#custom tx
+  
   while (true) {
     for (const privateKey of privateKeys) {
       const proxy = proxies.length ? getRandomProxy(proxies) : null;
