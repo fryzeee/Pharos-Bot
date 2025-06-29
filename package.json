@@ -26,7 +26,8 @@
     "ethers": "^6.10.0",
     "https-proxy-agent": "^7.0.2",
     "random-useragent": "^0.5.0",
-    "evmlogger": "^1.0.6"
+    "evmlogger": "^1.0.6",
+    "prompt-sync": "^4.2.0"
   },
   "engines": {
     "node": ">=18.0.0"
