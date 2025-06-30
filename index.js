@@ -792,12 +792,12 @@ const main = async () => {
     logger.error('No private keys found in .env');
     return;
   }
-#custom tx
+// custom tx
   const numTransfers = 100;
   const numWraps = 0;
   const numSwaps = 100;
   const numLPs = 0;
-#custom tx
+// custom tx
   
   while (true) {
     for (const privateKey of privateKeys) {
